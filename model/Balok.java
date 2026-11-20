@@ -1,5 +1,5 @@
 package model;
 
-public class Balok {
+public class Balok extends Object3D implements keyValueDetailable {
     
 }
