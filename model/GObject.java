@@ -11,6 +11,10 @@ public abstract class GObject {
         return label;
     }
 
+    public String setLabel() {
+        return label;
+    }
+
     public abstract String[][] getKeyValueDetails(){
 
     }
