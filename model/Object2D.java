@@ -8,7 +8,10 @@ public class Object2D extends GObject implements keyValueDetailable{
 
     public Object2D(String label, double panjang, double lebar, double sisi, double jarijari){
         super(label);
-        
+        this.panjang = panjang;
+        this.lebar = lebar;
+        this.sisi = sisi;
+        this.jarijari = jarijari;
     }
 
 
